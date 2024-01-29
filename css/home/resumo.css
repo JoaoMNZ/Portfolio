@@ -53,8 +53,10 @@ h3:hover{
 
 .resumo-lista-experiencia-item-lista-div li{
   padding: 5px;
+  box-sizing: border-box;
   border: 1px solid var(--cor-p0);
   border-radius: 5px;
+  line-height: initial;
 }
 
 .cursos-lista{

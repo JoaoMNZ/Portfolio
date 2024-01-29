@@ -1,0 +1,42 @@
+.main{
+  display: flex;
+  gap: 80px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 80px;
+  justify-content: center;
+}
+
+.main-img img{
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.main h1::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--cor-p0);
+  margin-top: 10px;
+}
+
+@media (max-width: 850px){
+  .main h1{
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 750px){
+  .main{
+    margin-bottom: 40px;
+  }
+  .main h1{
+    font-size: 3rem;
+  }
+  .main-img{
+    display: none;
+  }
+}

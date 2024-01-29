@@ -1,0 +1,11 @@
+/* utilidades */
+@import url("./utilidades/componentes.css");
+@import url("./utilidades/cores.css");
+@import url("./utilidades/tipografia.css");
+
+/* home */
+@import url("./home/inicio.css");
+@import url("./home/resumo.css");
+
+/* global */
+@import url("./global/global.css");

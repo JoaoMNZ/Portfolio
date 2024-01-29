@@ -1,0 +1,85 @@
+.resumo{
+  padding-bottom: 40px;
+}
+
+.resumo-lista{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.resumo-item{
+  flex: 1;
+  background-color: var(--cor-p1);
+  border: 1px solid var(--cor-p0);
+  padding: 20px;
+  border-radius: 5px;
+  min-width: 310px;
+}
+
+.resumo-item h2{
+  margin-bottom: 5px;
+}
+
+h3:hover{
+  color: var(--cor-0);
+}
+
+.resumo-item > p{
+  margin-bottom: 40px;
+}
+
+.resumo-lista-experiencia{
+  display: grid;
+  gap: 20px;
+}
+
+.resumo-lista-experiencia-item{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.resumo-lista-experiencia ul{
+  display: grid;
+  gap: 5px;
+}
+
+.resumo-lista-experiencia-item-lista-div{
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.resumo-lista-experiencia-item-lista-div li{
+  padding: 5px;
+  border: 1px solid var(--cor-p0);
+  border-radius: 5px;
+}
+
+.cursos-lista{
+  display: grid;
+  gap: 20px;
+}
+
+.cursos-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contato-lista{
+  display: grid;
+  gap: 20px;
+}
+
+.contato-lista > li > p:hover{
+  color: var(--cor-0);
+}
+
+.contato-lista li{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+

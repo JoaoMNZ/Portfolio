@@ -1,0 +1,15 @@
+.font-titulo{
+  font: 400 4rem/1.125 "Fira Sans", sans-serif;
+}
+
+.font-subtitulo{
+  font: 400 2rem/1.5 "Roboto", sans-serif;
+}
+
+.font-texto{
+  font: 400 1rem/1.3333 "Roboto", sans-serif;
+}
+
+.font-detalhes{
+  font: 400 0.75rem/1.3333 "Roboto", sans-serif;
+}
